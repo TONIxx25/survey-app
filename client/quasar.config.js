@@ -62,7 +62,7 @@ module.exports = configure(function ( ctx ) {
 
       vueRouterMode: 'history', // available values: 'hash', 'history'
       env: {
-        SERVER_URL: ctx.dev ? 'http://localhost:3000' : 'http://<YOUR_PROD_IP>',
+        SERVER_URL: ctx.dev ? 'http://localhost:3000' : 'http://52.203.101.172',
         CREATOR_NAME: 'Mcai-Sian Johnson',
         CREATOR_EMAIL: 'tonixxx2509@gmail.com',
         LINKEDIN: 'https://www.linkedin.com/in/mcai-sian-johnson-b897092b0/'
